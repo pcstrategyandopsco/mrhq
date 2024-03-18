@@ -1,4 +1,4 @@
- #_form_9_ { font-size:14px; line-height:1.6; font-family:arial, helvetica, sans-serif; margin:0; }
+ #_form_9_ { font-size:14px; line-height:1.6; margin:0; }
  #_form_9_ * { outline:0; }
  ._form_hide { display:none; visibility:hidden; }
  ._form_show { display:block; visibility:visible; }
@@ -8,7 +8,7 @@
  #_form_9_._form-right { right:0; }
  #_form_9_ input[type="text"],#_form_9_ input[type="tel"],#_form_9_ input[type="date"],#_form_9_ textarea { padding:6px; height:45px; border:#979797 1px solid; background-color:#070022; color:#ffffff !important; font-size:14px; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; }
  #_form_9_ textarea { resize:none; }
- #_form_9_ ._submit { -webkit-appearance:none; cursor:pointer; font-family:arial, sans-serif; font-size:14px; text-align:center; background:#eb008b !important; border:0 !important; color:#fff !important; padding:15px !important; }
+ #_form_9_ ._submit { -webkit-appearance:none; cursor:pointer; font-size:14px; text-align:center; background:#eb008b !important; border:0 !important; color:#fff !important; padding:15px !important; }
  #_form_9_ ._submit:disabled { cursor:not-allowed; opacity:0.4; }
  #_form_9_ ._submit.processing { position:relative; }
  #_form_9_ ._submit.processing::before { content:''; width:1em; height:1em; position:absolute; z-index:1; top:50%; left:50%; border:double 3px transparent; border-radius:50%; background-image:linear-gradient(#eb008b, #eb008b), conic-gradient(#eb008b, #fff); background-origin:border-box; background-clip:content-box, border-box; animation:1200ms ease 0s infinite normal none running _spin; }
