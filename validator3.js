@@ -28,29 +28,23 @@ function updateIntakeOptions() {
   // Add intake options based on selected pathway
   if (selectedPathway === 'Full Stack Developer') {
     addOptions([
-      '05 February 2024',
       '02 April 2024 – Part Time',
       '06 May 2024',
       '05 August 2024',
-      '04 November 2024',
-      "I'm Not Sure"
+      '04 November 2024'
     ]);
-  } else if (selectedPathway === 'The Tech Launchpad') {
+  } else if (selectedPathway === 'The Tech Career Launchpad') {
     addOptions([
-      '20 February 2024',
       '29 April 2024',
       '22 July 2024',
-      '14 October 2024',
-      "I'm Not Sure"
+      '14 October 2024'
     ]);
-  } else if (selectedPathway === 'UX Designer' || selectedPathway === 'Cloud & DevOps Developer' || selectedPathway === 'Business Analyst + Salesforce Consultant') {
+  } else if (selectedPathway === 'UX Designer' || selectedPathway === 'Advanced Full Stack Developer' || selectedPathway === 'Business Analyst + Salesforce Consultant') {
     addOptions([
-      '12 February 2024',
       '06 May 2024',
       '28 May 2024 – Part Time',
       '05 August 2024',
-      '04 November 2024',
-      "I'm Not Sure"
+      '04 November 2024'
     ]);
     } else if (selectedPathway === "I'm Not Sure") {
     addOptions([
