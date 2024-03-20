@@ -39,7 +39,7 @@ function updateIntakeOptions() {
       '22 July 2024',
       '14 October 2024'
     ]);
-  } else if (selectedPathway === 'UX Designer' || selectedPathway === 'Advanced Full Stack Developer' || selectedPathway === 'Business Analyst + Salesforce Consultant') {
+  } else if (selectedPathway === 'UX Designer' || selectedPathway === 'Advanced Full Stack Developer' || selectedPathway === 'Business Analyst   Salesforce Consultant') {
     addOptions([
       '06 May 2024',
       '28 May 2024 – Part Time',
