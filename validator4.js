@@ -28,14 +28,12 @@ function updateIntakeOptions() {
   // Add intake options based on selected pathway
   if (selectedPathway === 'Full Stack Developer') {
     addOptions([
-      '02 April 2024 – Part Time',
       '06 May 2024',
       '05 August 2024',
       '04 November 2024'
     ]);
   } else if (selectedPathway === 'The Tech Career Launchpad') {
     addOptions([
-      '29 April 2024',
       '22 July 2024',
       '14 October 2024'
     ]);
