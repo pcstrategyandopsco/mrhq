@@ -28,13 +28,11 @@ function updateIntakeOptions() {
   // Add intake options based on selected pathway
   if (selectedPathway === 'Diploma in Digital Technology Development and Design') {
     addOptions([
-      '06 May 2024',
       '05 August 2024',
       '04 November 2024'
     ]);
   } else if (selectedPathway === 'Full Stack Developer') {
     addOptions([
-      '06 May 2024',
       '05 August 2024',
       '04 November 2024'
     ]);
@@ -45,7 +43,6 @@ function updateIntakeOptions() {
     ]);
   } else if (selectedPathway === 'UX Designer' || selectedPathway === 'Advanced Full Stack Developer' || selectedPathway === 'Business Analyst + Salesforce Consultant') {
     addOptions([
-      '06 May 2024',
       '05 August 2024',
       '04 November 2024'
     ]);
