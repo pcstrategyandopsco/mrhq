@@ -36,11 +36,6 @@ function updateIntakeOptions() {
       '05 August 2024',
       '04 November 2024'
     ]);
-  } else if (selectedPathway === 'The Tech Career Launchpad') {
-    addOptions([
-      '22 July 2024',
-      '14 October 2024'
-    ]);
   } else if (selectedPathway === 'UX Designer' || selectedPathway === 'Advanced Full Stack Developer' || selectedPathway === 'Business Analyst + Salesforce Consultant') {
     addOptions([
       '05 August 2024',
